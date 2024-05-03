@@ -7,6 +7,8 @@ view: auth_group {
     type: number
     sql: ${TABLE}."id" ;;
   }
+
+
   dimension: name {
     type: string
     sql: ${TABLE}."name" ;;
